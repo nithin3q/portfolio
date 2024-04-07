@@ -1,0 +1,32 @@
+.tech-icons-container {
+    overflow: hidden;
+  }
+  
+  .marquee {
+    display: flex;
+    animation: marquee 20s linear infinite;
+  }
+  
+  .tech-icons-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .tech-icon {
+    margin-right: 20px; /* Adjust the spacing between icons as needed */
+  }
+  
+  .tech-icons-container:hover .marquee,
+  .tech-icons-container:hover .tech-icons-wrapper {
+    animation-play-state: paused;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

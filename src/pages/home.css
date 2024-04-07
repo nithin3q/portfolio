@@ -1,0 +1,43 @@
+.home-header > div {
+  padding: 0;
+  margin-left: -50px;
+  margin-top: -40px; /* Adjust margin as needed */
+  text-align: left;
+}
+
+.home-headers {
+  padding: 0px 0px 8px 3px;
+}
+
+/* Add this CSS in your stylesheet */
+@media (max-width: 767px) {
+    .home-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .home-headers {
+        padding: 0px 0px 28px 0px;
+        
+    }
+    .home-header > div {
+      padding: 0;
+      margin-left: -50px;
+      margin-top: -100px; /* Adjust margin as needed */
+      text-align: left;
+    }
+    
+  
+  }
+
+.nithin{
+  color: hsl(266, 11%, 88%);
+  z-index: 1;
+
+
+}
+
+.nithin:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(117, 0, 250, 1) !important;
+}
