@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import homeLogo from "../assets/about.png";
 import Type from "../components/Home/Type";
 import './home.css'
-import Particle from "../components/Particle";
+
 
 const Home = () => {
   const scrollToContact = () => {
