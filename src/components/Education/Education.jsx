@@ -2,11 +2,13 @@ import React from 'react';
 
 
 import './Education.css'
+import EducationCard from './EducationCard';
+
 
 import eduImage from '../../assets/eduImage.svg'
 
 import { educationData } from '../../data/educationData'
-import Particle from '../Particle';
+
 
 function Education() {
 
